@@ -1,6 +1,6 @@
 import socket 
 
-target_host = "127.0.0.1" #change as you like 
+target_host = "0.0.0.0" #change as you like 
 target_port = 9999 #change as you like
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #AF_INET is ipv4 and SOCK_STREAM is TCP client
